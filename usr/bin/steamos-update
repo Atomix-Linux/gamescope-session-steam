@@ -1,0 +1,4 @@
+#! /bin/bash
+
+exit 7 # tells Steam client there is no update to perform
+# TODO - Implement zenkai update
