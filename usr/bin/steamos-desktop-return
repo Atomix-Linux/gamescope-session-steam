@@ -8,7 +8,7 @@ fi
 
 # If not running in a nested desktop, continue with normal script execution
 #/usr/bin/steamrestart
-/usr/libexec/os-session-select gamescope
+/usr/lib/os-session-select gamescope
 if [[ ! -z $(systemctl status gdm | grep running) ]]; then
         exec gnome-session-quit --no-prompt
 fi
