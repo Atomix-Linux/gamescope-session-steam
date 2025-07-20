@@ -10,4 +10,4 @@ else
 	echo "No branches available"
 fi
 
-# TODO - Add zenkai update stable/unstable selection
+# TODO - Add aldm update stable/unstable selection
